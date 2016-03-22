@@ -1,5 +1,5 @@
 ---
 name:  'Susana Ventura'
 role:  'Team Leader'
-filters: 'informatics keepItEasy'
+filters: 'board informatics keepItEasy'
 ---

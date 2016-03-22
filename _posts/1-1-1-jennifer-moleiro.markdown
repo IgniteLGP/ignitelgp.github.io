@@ -1,5 +1,5 @@
 ---
 name:  'Jennifer Moleiro'
 role:  'Designer'
-filters: 'design keepItEasy'
+filters: 'design keepItEasy weMote'
 ---

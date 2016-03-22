@@ -1,5 +1,5 @@
 ---
 name:  'Marta Novo'
-role:  'Designer'
-filters: 'design keepItEasy'
+role:  'CCO'
+filters: 'board design voluntariadoUP dragAndShop'
 ---

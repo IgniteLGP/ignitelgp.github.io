@@ -1,5 +1,5 @@
 ---
 name:  'Henrique Ferrolho'
 role:  'COO'
-filters: 'informatics keepItEasy'
+filters: 'board informatics keepItEasy'
 ---
