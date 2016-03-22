@@ -175,7 +175,21 @@ layout: default
 
 		{% for post in site.posts reversed %}
 
-		{{ post }}
+		<figure class="mix work-item {{ post.filters }}">
+
+			<img src="img/team/{{ post.name | slugify }}.jpg" alt="">
+
+			<figcaption class="overlay">
+
+				<a class="fancybox" rel="team" title="Write Your Image Caption Here" href="img/team/{{ post.name | slugify }}.jpg"><i class="fa fa-eye fa-lg"></i></a>
+
+				<h4>{{ post.name }}</h4>
+
+				<p>{{ post.role }}</p>
+
+			</figcaption>
+
+		</figure>
 
 		{% endfor %}
 
