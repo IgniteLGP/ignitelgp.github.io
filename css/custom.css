@@ -1,9 +1,15 @@
 
-.myOverlay > img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+.work-item img {
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.myOverlay > img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
 .myOverlay {
 	text-align: center;
 	position: absolute;
@@ -17,9 +23,9 @@
 	filter: alpha(opacity=0);
 	
 	-webkit-transition: all 450ms ease-out 0s;	
-	   -moz-transition: all 450ms ease-out 0s;
-		 -o-transition: all 450ms ease-out 0s;
-		    transition: all 450ms ease-out 0s;
+	-moz-transition: all 450ms ease-out 0s;
+	-o-transition: all 450ms ease-out 0s;
+	transition: all 450ms ease-out 0s;
 }
 
 .work-item:hover .myOverlay {
