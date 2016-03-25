@@ -1,5 +1,5 @@
 ---
 name:  'Paula Fortuna'
-role:  'CEO'
+role:  'CEO & Developer'
 filters: 'board informatics weMote'
 ---
