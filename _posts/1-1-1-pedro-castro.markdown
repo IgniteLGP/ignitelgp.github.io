@@ -1,5 +1,5 @@
 ---
 name:  'Pedro Castro'
-role:  'Team Leader'
+role:  'Team Leader & Developer'
 filters: 'board informatics weMote'
 ---

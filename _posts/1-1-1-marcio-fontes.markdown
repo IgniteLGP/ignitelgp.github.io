@@ -1,5 +1,5 @@
 ---
 name:  'Márcio Fontes'
-role:  'Team Leader'
+role:  'Team Leader & Developer'
 filters: 'board informatics voluntariadoUP'
 ---

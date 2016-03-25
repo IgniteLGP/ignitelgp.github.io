@@ -1,5 +1,5 @@
 ---
 name:  'Carolina Ferreira'
-role:  'Illustrator'
+role:  ''
 filters: 'multimedia voluntariadoUP'
 ---
