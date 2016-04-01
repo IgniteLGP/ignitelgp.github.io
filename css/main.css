@@ -349,10 +349,13 @@ top: -8px;
 
 .work-filter ul li a:hover,
 .work-filter ul li a.active {
+  /*
   background-color: rgb(232, 98, 37);
   border-radius: 6px;
   color: #fff;
   padding: 5px 17px;
+  */
+  text-decoration: underline;
 }
 
 .mix {
