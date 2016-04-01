@@ -41,7 +41,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #6CB670;
+    color: rgb(231, 30, 37);
 }
 
 h1, h2, h3,
