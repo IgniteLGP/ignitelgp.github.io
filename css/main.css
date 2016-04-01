@@ -568,7 +568,7 @@ top: -8px;
 
 .contact-address h3 {
   color: #062033;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   margin-bottom: 25px;
 }
@@ -621,7 +621,7 @@ label.error {
 }
 
 .contact-form #form-submit {
-  background: url("../img/envelop.png") no-repeat scroll 0 15px transparent;
+  background: /*url("../img/envelop.png")*/ no-repeat scroll 0 15px transparent;
   border: 0 none;
   color: #000;
   font-size: 16px;
@@ -655,7 +655,7 @@ label.error {
 
 .footer {
   background-color: rgb(232, 98, 37);
-  border-top: 5px solid #062033;
+  /*border-top: 5px solid #062033;*/
   color: #fff;
 }
 
