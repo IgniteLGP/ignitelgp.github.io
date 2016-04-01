@@ -1,5 +1,5 @@
 ---
 name:  'Sandrine Malta'
-role:  'CFO'
+role:  'CFO & Diva'
 filters: 'board multimedia'
 ---
