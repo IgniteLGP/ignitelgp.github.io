@@ -229,7 +229,7 @@ top: -8px;
 }
 
 .social-links {
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 
 .social-links li {
@@ -717,7 +717,7 @@ label.error {
 
 .copyright {
   color: #fff;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #back-top {
