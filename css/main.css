@@ -118,7 +118,7 @@ body > section,
 }
 
 .mb50 {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 #preloader {
@@ -563,7 +563,7 @@ top: -8px;
 
 .contact-address h3 {
   color: #062033;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 32px;
   margin-bottom: 25px;
 }
