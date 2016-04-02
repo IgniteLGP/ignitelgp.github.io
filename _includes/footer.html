@@ -46,8 +46,6 @@
 <!-- Contact form validation -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-<!-- Google Map -->
-<!--<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
 <!-- jquery easing -->
 <script src="js/jquery.easing.min.js"></script>
 <!-- jquery easing -->
@@ -99,27 +97,7 @@
 					required: "um...yea, you have to write something to send this form.",
 					minlength: "thats all? really?"
 				}
-			}/*,
-			submitHandler: function(form) {
-				$(form).ajaxSubmit({
-					type:"POST",
-					data: $(form).serialize(),
-					url:"process.php",
-					success: function() {
-						$('#contact-form :input').attr('disabled', 'disabled');
-						$('#contact-form').fadeTo( "slow", 0.15, function() {
-							$(this).find(':input').attr('disabled', 'disabled');
-							$(this).find('label').css('cursor','default');
-							$('#success').fadeIn();
-						});
-					},
-					error: function() {
-						$('#contact-form').fadeTo( "slow", 0.15, function() {
-							$('#error').fadeIn();
-						});
-					}
-				});
-			}*/
+			}
 		});
 	});
 </script>
