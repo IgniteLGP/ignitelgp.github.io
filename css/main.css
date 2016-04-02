@@ -146,12 +146,6 @@ Header
 	background: rgba(16, 22, 54, 0.2);
 	border: 0 none;
 	margin: 0;
-
-	-webkit-transition: background 800ms linear;
-	-moz-transition: background 800ms linear;
-	-ms-transition: background 800ms linear;
-	-o-transition: background 800ms linear;
-	transition: background 800ms linear;
 }
 
 .navbar-toggle i {
@@ -656,11 +650,10 @@ Contact Us
 .footer {
 	background: rgb(232, 98, 37);
 	background: -moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
-	background: -webkit-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%,#e7c806 100%);
+	background: -webkit-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
 	background: linear-gradient(to right, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a81e23', endColorstr='#e7c806', GradientType=1);
-	/*background-color: rgb(232, 98, 37);*/
-	/*border-top: 5px solid #062033;*/
+
 	color: #fff;
 }
 

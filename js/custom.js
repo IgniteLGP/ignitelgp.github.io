@@ -32,13 +32,9 @@ $(document).ready(function(){
 	
 	$(window).scroll(function () {
 		if ($(window).scrollTop() > 400) {
-			$("#navigation").css("background","rgb(232, 98, 37)");
-			$("#navigation").css("background", "-moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%)");
-			$("#navigation").css("background", "-webkit-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%)");
-			$("#navigation").css("background", "linear-gradient(to right, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%)");
-			$("#navigation").css("filter", "progid:DXImageTransform.Microsoft.gradient(startColorstr='#a81e23', endColorstr='#e7c806', GradientType=1)");
+			$("#navigation-gradient").css("opacity", "1");
 		} else {
-			$("#navigation").css("background","rgba(16, 22, 54, 0.2)");
+			$("#navigation-gradient").css("opacity", "0");
 		}
 	});
 	
