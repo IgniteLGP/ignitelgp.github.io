@@ -235,18 +235,23 @@ layout: default
 			<!-- contact form -->
 			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
 				<div class="contact-form">
-					<form action="#" id="contact-form">
+					<form action="https://formspree.io/ignite.lgp@gmail.com" method="POST" id="contact-form">
 						<div class="input-group name-email">
 							<div class="input-field">
 								<input type="text" name="name" id="name" placeholder="Name" class="form-control">
 							</div>
+
 							<div class="input-field">
 								<input type="email" name="email" id="email" placeholder="Email" class="form-control">
 							</div>
 						</div>
+
 						<div class="input-group">
 							<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
 						</div>
+
+						<input type="text" name="_gotcha" style="display:none" />
+
 						<div class="input-group">
 							<input type="submit" id="form-submit" class="pull-right" value="Send message">
 						</div>
