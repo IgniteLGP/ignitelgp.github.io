@@ -1,3 +1,11 @@
+.text-justify {
+	text-align: justify;
+}
+
+.sec-text {
+	font-size: 120%;
+	padding: 0 10%;
+}
 
 #navigation-gradient {
 	background: rgb(232, 98, 37);
@@ -19,6 +27,11 @@
 	-o-transition: opacity 800ms linear;
 	transition: opacity 800ms linear;
 }
+
+
+/*
+* Company members
+*/
 
 .work-item img {
 	margin-left: auto;
