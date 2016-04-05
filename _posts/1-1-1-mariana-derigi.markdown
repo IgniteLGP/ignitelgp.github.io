@@ -1,5 +1,5 @@
 ---
 name:  'Mariana Derigi'
-role:  ''
+role:  'Media Creator'
 filters: 'multimedia'
 ---

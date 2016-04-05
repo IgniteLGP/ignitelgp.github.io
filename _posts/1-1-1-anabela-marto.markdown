@@ -1,5 +1,5 @@
 ---
 name:  'Anabela Marto'
-role:  ''
+role:  'Media Creator'
 filters: 'multimedia'
 ---

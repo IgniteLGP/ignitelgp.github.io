@@ -1,5 +1,5 @@
 ---
 name:  'Filipe Teixeira'
-role:  'CMO'
+role:  'CMO & Media Creator'
 filters: 'board multimedia'
 ---

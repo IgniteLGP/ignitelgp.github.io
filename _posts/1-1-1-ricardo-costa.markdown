@@ -1,5 +1,5 @@
 ---
 name:  'Ricardo Costa'
-role:  ''
+role:  'Media Creator'
 filters: 'multimedia'
 ---

@@ -30,6 +30,23 @@
 
 
 /*
+* Banner
+*/
+#banner {
+	overflow: hidden;
+}
+
+#banner .curved-bottom {
+	background-color: #eee;
+	border-radius: 0 0 50% 50%;
+
+	width: 150%;
+	margin-left: -25%;
+	padding-bottom: 5%;
+}
+
+
+/*
 * Company members
 */
 
@@ -77,4 +94,12 @@
 .work-item .myOverlay p {
 	font-size: 14px;
 	line-height: 24px;
+}
+
+
+/*
+* Team
+*/
+#team ul {
+	margin-bottom: 1%;
 }
