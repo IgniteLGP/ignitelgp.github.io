@@ -1,5 +1,5 @@
 ---
 name:  'Carolina Ferreira'
-role:  'Media Creator'
+role:  'Producer Editor'
 filters: 'multimedia voluntariadoUP'
 ---
