@@ -1,5 +1,5 @@
 ---
 name:  'Mariana Derigi'
-role:  'Producer Editor'
+role:  'Producer and Editor'
 filters: 'multimedia dragAndShop'
 ---

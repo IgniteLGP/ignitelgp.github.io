@@ -8,7 +8,7 @@
 }
 
 #navigation-gradient {
-	background: rgb(232, 98, 37);
+	background: rgb(231, 30, 37);
 	background: -moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
 	background: -webkit-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
 	background: linear-gradient(to right, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);

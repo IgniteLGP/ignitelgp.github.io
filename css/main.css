@@ -143,8 +143,7 @@ Header
 ==========================================*/
 
 #navigation {
-	//background: rgba(16, 22, 54, 0.2);
-	background: #E73825;
+	background: rgb(231, 30, 37);
 	border: 0 none;
 	margin: 0;
 }
@@ -649,12 +648,7 @@ Contact Us
 
 
 .footer {
-	background: rgb(232, 98, 37);
-	background: -moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
-	background: -webkit-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
-	background: linear-gradient(to right, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a81e23', endColorstr='#e7c806', GradientType=1);
-
+	background: rgb(231, 30, 37);
 	color: #fff;
 }
 

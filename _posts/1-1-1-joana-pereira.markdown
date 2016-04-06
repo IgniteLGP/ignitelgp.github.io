@@ -1,5 +1,5 @@
 ---
 name:  'Joana Pereira'
-role:  'Producer Editor'
+role:  'Producer and Editor'
 filters: 'multimedia'
 ---

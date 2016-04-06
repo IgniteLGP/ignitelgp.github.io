@@ -1,5 +1,5 @@
 ---
 name:  'Ricardo Costa'
-role:  'Producer Editor'
+role:  'Producer and Editor'
 filters: 'multimedia keepItEasy'
 ---
