@@ -2,11 +2,6 @@
 	text-align: justify;
 }
 
-.sec-text {
-	font-size: 120%;
-	padding: 0 10%;
-}
-
 #navigation-gradient {
 	background: rgb(231, 30, 37);
 	background: -moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
@@ -106,4 +101,17 @@
 */
 #team ul {
 	margin-bottom: 1%;
+}
+
+
+/*
+* Projects page
+*/
+#about p {
+	font-size: 120%;
+
+	padding-left: 2%;
+	padding-right: 2%;
+
+	margin-bottom: 10%;
 }
