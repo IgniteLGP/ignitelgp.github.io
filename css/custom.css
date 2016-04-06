@@ -36,13 +36,17 @@
 	overflow: hidden;
 }
 
-#banner .curved-bottom {
+#banner div {
 	background-color: #eee;
-	border-radius: 0 0 50% 50%;
+}
 
-	width: 150%;
-	margin-left: -25%;
-	padding-bottom: 5%;
+.curved-bottom {
+	border-radius: 0 0 50% 50%;
+	height: 8vw;
+
+	//width: 150%;
+	//margin-left: -25%;
+	//padding-bottom: 50%;
 }
 
 
