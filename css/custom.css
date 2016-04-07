@@ -1,6 +1,17 @@
+
+.curved-bottom {
+	border-radius: 0 0 50% 50%;
+	height: 8vh;
+}
+
 .text-justify {
 	text-align: justify;
 }
+
+
+/*
+* Navbar
+*/
 
 #navigation-gradient {
 	background: rgb(231, 30, 37);
@@ -29,19 +40,12 @@
 */
 #banner {
 	overflow: hidden;
+	margin-top: 50px;
+	padding: 0;
 }
 
 #banner div {
 	background-color: #eee;
-}
-
-.curved-bottom {
-	border-radius: 0 0 50% 50%;
-	height: 8vw;
-
-	//width: 150%;
-	//margin-left: -25%;
-	//padding-bottom: 50%;
 }
 
 
