@@ -156,6 +156,16 @@ Header
 	padding: 0;
 }
 
+.navbar-brand img {
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		margin: 5% 10%;
+	}
+}
+
 .navbar-nav li a {
 	border-top: 1px solid transparent;
 }
