@@ -30,12 +30,8 @@
     <!-- Normalize Styles -->
     <link href="assets/css/normalize.css" rel="stylesheet">
 
-    <!-- Extras -->
+    <!-- Smooth animations -->
     <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
-    <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
-    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
 
 </head>
 
@@ -62,7 +58,7 @@
                         </li>
                         <li><a href="#about">About</a>
                         </li>
-                        <li><a href="#team">Team</a>
+                        <li><a href="#portfolio">Team</a>
                         </li>
                         <li><a href="#partners">Partners</a>
                         </li>
@@ -82,7 +78,7 @@
                     <div class="main-text">
                         <h1 class="wow fadeInUp"><span>IGNITE</span> @ lgp</h1>
                         <h2 class="wow fadeInUp" data-wow-delay=".7s">Lighting up your imagination</h2>
-                        <div class="wow fadeInUp" data-wow-delay="1.5s"><a onclick="smoothScr.anim('projects')" class="btn btn-border btn-lg"><i class="fa fa-fire"></i> Explore</a>
+                        <div class="wow fadeInUp" data-wow-delay="1.5s"><a onclick="smoothScr.anim('projects')" class="btn btn-border btn-lg"><i class="fa fa-spinner fa-spin"></i> Explore</a>
                         </div>
                     </div>
                 </div>
@@ -200,141 +196,282 @@
     <!-- Start Portfolio Section -->
     <section id="portfolio">
         <div class="container">
-            <h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Our</span> Portfolio</h1>
+            <h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Our</span> Team</h1>
             <div class="row">
                 <div class="controls text-center">
                     <a class="filter btn btn-border" data-filter="all">All</a>
                     <a class="filter btn btn-border" data-filter=".design">Design</a>
-                    <a class="filter btn btn-border" data-filter=".marketing">Marketing</a>
-                    <a class="filter btn btn-border" data-filter=".nwtwork">Network</a>
-                    <a class="filter btn btn-border" data-filter=".awesome">Awesome</a>
+                    <a class="filter btn btn-border" data-filter=".multimedia">Multimedia</a>
+                    <a class="filter btn btn-border" data-filter=".dev">Informatics</a>
                 </div>
                 <div id="portfolio-items" class="portfolio-items wow fadeInUpQuick">
 
-                    <div class="mix nwtwork" data-myorder="1">
+                    <div class="mix dev" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img1.jpg" alt="">
+                                <img src="assets/img/members/alcino-sousa-2.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img1.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/alcino-sousa.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Alcino Sousa</h4>
+                                <p>Developer</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix design" data-myorder="2">
+                    <div class="mix multimedia" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img2.jpg" alt="">
+                                <img src="assets/img/members/anabela-marto.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img2.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/anabela-marto-2.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Anabela Marto</h4>
+                                <p>Producer & Editor</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix marketing awesome" data-myorder="3">
+                    <div class="mix multimedia" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img3.jpg" alt="">
+                                <img src="assets/img/members/carolina-ferreira-2.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img3.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/carolina-ferreira.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Carolina Ferreira</h4>
+                                <p>Producer & Editor</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix awesome" data-myorder="4">
+                    <div class="mix dev" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img4.jpg" alt="">
+                                <img src="assets/img/members/daniel-gomes.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img4.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/daniel-gomes-2.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Daniel Gomes</h4>
+                                <p>Developer</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix design" data-myorder="5">
+                    <div class="mix dev" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img5.jpg" alt="">
+                                <img src="assets/img/members/eduardo-almeida-2.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img5.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/eduardo-almeida.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Eduardo Almeida</h4>
+                                <p>Developer</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix marketing" data-myorder="6">
+                    <div class="mix dev" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img6.jpg" alt="">
+                                <img src="assets/img/members/filipe-marques.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img6.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/filipe-marques-2.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Filipe Marques</h4>
+                                <p>Developer</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix awesome" data-myorder="1">
+                    <div class="mix multimedia" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img7.jpg" alt="">
+                                <img src="assets/img/members/filipe-teixeira.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img7.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/filipe-teixeira-2.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Filipe Teixeira</h4>
+                                <p>CMO, Producer & Editor</p>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div class="mix nwtwork design" data-myorder="1">
+                    <div class="mix dev" data-myorder="1">
                         <figure>
                             <div class="img">
-                                <img src="assets/img/portfolio/img8.jpg" alt="">
+                                <img src="assets/img/members/henrique-ferrolho.jpg" alt="">
                                 <div class="overlay">
-                                    <a data-lightbox="image1" href="assets/img/portfolio/thumb/img8.jpg" class="link-left"><i class="fa fa-plus"></i></a>
-                                    <a href="#" class="link-right"><i class="fa fa-link"></i></a>
+                                    <img src="assets/img/members/henrique-ferrolho-2.jpg" alt="">
                                 </div>
                             </div>
                             <figcaption class="item-description">
-                                <h4 class="item-title">Maecenas Bibendum</h4>
-                                <p>Online Startup</p>
+                                <h4 class="item-title">Henrique Ferolho</h4>
+                                <p>COO & Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/ivo-silva.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/ivo-silva-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Ivo Lima Silva</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix design" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/jennifer-moleiro.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/jennifer-moleiro-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Jennifer Moleiro</h4>
+                                <p>Designer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix multimedia" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/joana-pereira.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/joana-pereira-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Joana Pereira</h4>
+                                <p>Producer & Editor</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/joão-faria.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/joão-faria-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">João Faria</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/joão-figueiredo.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/joão-figueiredo-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">João Figueiredo</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/joão-morgado.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/joão-morgado-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">João Morgado</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/joão-santos.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/joão-santos-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">João Santos</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/leonel-peixoto.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/leonel-peixoto-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Leonel Peixoto</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/mafalda-falcão.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/mafalda-falcão-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Mafalda Falcão</h4>
+                                <p>Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="mix dev" data-myorder="1">
+                        <figure>
+                            <div class="img">
+                                <img src="assets/img/members/paula-fortuna.jpg" alt="">
+                                <div class="overlay">
+                                    <img src="assets/img/members/paula-fortuna-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <figcaption class="item-description">
+                                <h4 class="item-title">Paula Fortuna</h4>
+                                <p>CEO & Developer</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -371,7 +508,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.2s">
                     <div class="item-square">
                         <div class="face">
