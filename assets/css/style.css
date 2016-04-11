@@ -202,6 +202,12 @@ img {
     background: #ffffff;
     height: 50%;
 }
+#projects .section-title {
+    margin-bottom: 0px;
+}
+#projects .row>div {
+    margin-top: 10px;
+}
 #projects .service-box {
     position: relative;
     border: 1px solid #E74C3C;
@@ -320,6 +326,8 @@ img {
     width: 19%;
     margin: 5px;
     overflow: hidden;
+    max-width: 318px;
+    min-width: 200px;
 }
 #portfolio .portfolio-items figure {
     background: #ffffff;
@@ -391,6 +399,7 @@ img {
     -moz-transition: all 0.5s;
     transition: all 0.5s;
     position: relative;
+    height: 100px;
 }
 #portfolio .portfolio-items .item-description:after {
     top: -25px;
