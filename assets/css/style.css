@@ -101,7 +101,15 @@ img {
 }
 #header .main-navigation {
     background: #ffffff;
-    border-bottom: 2px solid #E74C3C;
+    border-bottom: 2px;
+    -webkit-border-image: 
+        -webkit-gradient(linear, 0 100%, 0 0, from(#E74C3C), to(orange)) 100% 1;
+    -webkit-border-image: 
+        -webkit-linear-gradient(bottom, #E74C3C, orange) 100% 1;
+    -o-border-image:
+             -o-linear-gradient(bottom, #E74C3C, orange) 100% 1;
+    -moz-border-image:
+           -moz-linear-gradient(bottom, #E74C3C, orange) 100% 1; 
 }
 #header .navbar-brand {
     height: auto;
