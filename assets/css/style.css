@@ -112,7 +112,19 @@ img {
            -moz-linear-gradient(bottom, #E74C3C, orange) 100% 1; 
 }
 #header .navbar-brand {
-    height: auto;
+    font-size: xx-large;
+    color: #181818;
+    text-transform: uppercase;
+}
+#header .navbar-brand:hover {
+    color: #E74C3C;
+}
+#btn-explore {
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+#btn-explore:hover {
+    background: #E74C3C;
 }
 #header .nav {
     list-style: none;
@@ -172,20 +184,25 @@ img {
 #header .affix .nav {
     margin-top: 10px;
 }
+#big-logo {
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #intro {
     background: url("../img/background/bg-intro.jpg") center center no-repeat;
     background-size: cover;
     color: #ffffff;
     text-align: center;
-    padding-top: 67px;
+    padding-top: 50px;
     height: 100vh;
 }
 #intro .overlay {
     height: 100vh;
-    background: url("../img/background/bg-overlay.png") rgba(0, 0, 0, 0.6) repeat;
+    background: url("../img/background/bg-overlay.png") rgba(0, 0, 0, 0.3) repeat;
 }
 #intro .main-text {
-    margin: 35vh 0px;
+    margin: 20vh 0px;
 }
 #intro .main-text h1 {
     font-weight: 700;
