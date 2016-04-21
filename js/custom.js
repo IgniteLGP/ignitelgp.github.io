@@ -21,13 +21,7 @@ $(document).ready(function(){
 		speed: 1200,
 		currentClass: 'current',
 		easing: 'easeInOutExpo',
-		updateHash: true,
-		beforeStart: function() {
-			console.log('begin scrolling');
-		},
-		onComplete: function() {
-			console.log('done scrolling');
-		}
+		updateHash: true
 	});
 	
 	$(window).scroll(function () {

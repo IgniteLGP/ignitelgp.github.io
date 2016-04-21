@@ -1,15 +1,9 @@
-
-.curved-bottom {
-	border-radius: 0 0 50% 50%;
-	height: 8vh;
-}
+/*
+* Ignite CSS
+*/
 
 .text-justify {
 	text-align: justify;
-}
-
-.section-color1 {
-	background-color: #eee;
 }
 
 /*
@@ -41,12 +35,32 @@
 /*
 * Banner
 */
+
 #banner {
-	overflow: hidden;
-	margin-top: 50px;
-	padding: 0;
+	background-color: #ddd;
 }
 
+
+/*
+* Partners
+*/
+
+.ignite-tile {
+	margin: 15% 5%;
+}
+
+.ignite-tile img {
+	background-color: #ddd;
+
+	-webkit-transition: all 200ms ease-out 0s;
+	-moz-transition: all 200ms ease-out 0s;
+	-o-transition: all 200ms ease-out 0s;
+	transition: all 200ms ease-out 0s;
+}
+
+.ignite-tile img:hover {
+	background-color: #777;
+}
 
 /*
 * Company members
