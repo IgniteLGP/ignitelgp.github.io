@@ -24,14 +24,6 @@ $(document).ready(function(){
 		updateHash: true
 	});
 	
-	$(window).scroll(function () {
-		if ($(window).scrollTop() > 400) {
-			$("#navigation-gradient").css("opacity", "1");
-		} else {
-			$("#navigation-gradient").css("opacity", "0");
-		}
-	});
-	
 	/* ========================================================================= */
 	/*	Fix Slider Height
 	/* ========================================================================= */	
@@ -93,8 +85,7 @@ $(document).ready(function(){
 	/* ========================================================================= */
 	/*	Back to Top
 	/* ========================================================================= */
-	
-	
+
 	$(window).scroll(function () {
 		if ($(window).scrollTop() > 400) {
 			$("#back-top").fadeIn(200)
@@ -102,10 +93,11 @@ $(document).ready(function(){
 			$("#back-top").fadeOut(200)
 		}
 	});
+
 	$("#back-top").click(function () {
 		$("html, body").stop().animate({
 			scrollTop: 0
 		}, 1500, "easeInOutExpo")
 	});
-	
+
 });

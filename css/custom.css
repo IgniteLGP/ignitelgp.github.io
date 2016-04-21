@@ -10,6 +10,14 @@
 * Navbar
 */
 
+#navigation {
+	background: white;
+}
+
+#navigation a {
+	color: black;
+}
+
 #navigation-gradient {
 	background: rgb(231, 30, 37);
 	background: -moz-linear-gradient(left, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
@@ -17,18 +25,7 @@
 	background: linear-gradient(to right, #a81e23 0%, #e71e25 33%, #e86225 66%, #e7c806 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a81e23', endColorstr='#e7c806', GradientType=1);
 
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: -1;
-
-	opacity: 0;
-
-	-webkit-transition: opacity 800ms linear;
-	-moz-transition: opacity 800ms linear;
-	-ms-transition: opacity 800ms linear;
-	-o-transition: opacity 800ms linear;
-	transition: opacity 800ms linear;
+	height: 2px;
 }
 
 
@@ -38,11 +35,23 @@
 
 #banner {
 	background-color: #ddd;
+	display: inline-flex;
+	height: 100vh;
+	width: 100%;
+}
+
+#banner-content {
+	margin: auto;
+}
+
+#banner-content h3 {
+	font-size: 25px;
+	padding-left: 10%;
 }
 
 
 /*
-* Partners
+* Projects and Partners tiles
 */
 
 .ignite-tile {
@@ -139,4 +148,17 @@
 	padding-right: 2%;
 
 	margin-bottom: 10%;
+}
+
+/*
+* back-top
+*/
+
+#back-top {
+	color: rgb(232, 98, 37);
+	display: none;
+}
+
+#back-top:hover {
+	color: rgb(168, 30, 35);
 }
