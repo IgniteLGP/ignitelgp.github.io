@@ -242,13 +242,13 @@ Slider
 }
 
 .social-links li a {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.3);
 	display: block;
 	margin: 0 6px;
 }
 
 .social-links li a:hover {
-	color: #fff;
+	color: black;
 }
 
 .carousel-indicators {
@@ -656,9 +656,8 @@ Contact Us
 ==========================================*/
 
 
-.footer {
-	background: rgb(231, 30, 37);
-	color: #fff;
+.footer p {
+	color: black;
 }
 
 .footer a:hover {
