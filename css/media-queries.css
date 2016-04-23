@@ -136,7 +136,7 @@ background-position: center top !important;
 }
 
 .social-links {
-  margin-top: 20%;
+  /*margin-top: 20%;*/
 }
 
 /* services */
@@ -163,7 +163,7 @@ background-position: center top !important;
 /* works */
 
 .work-item {
-  left: 5% !important;
+  /*left: 5% !important;*/
   width: 90%;
 }
 

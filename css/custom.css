@@ -2,9 +2,14 @@
 * Ignite CSS
 */
 
+body > section {
+	padding-top: 50px;
+}
+
 .text-justify {
 	text-align: justify;
 }
+
 
 /*
 * Navbar
@@ -15,6 +20,10 @@
 }
 
 #navigation a {
+	color: black;
+}
+
+.navbar-toggle i {
 	color: black;
 }
 
@@ -77,6 +86,7 @@
 .ignite-tile img:hover {
 	background-color: #777;
 }
+
 
 /*
 * Company members
@@ -145,6 +155,7 @@
 /*
 * Projects page
 */
+
 #company-about p {
 	font-size: 120%;
 }
@@ -162,12 +173,22 @@
 	margin-bottom: 10%;
 }
 
+
+/*
+* Contacts
+*/
+
+#contacts {
+	padding-bottom: 50px;
+}
+
+
 /*
 * Footer
 */
 
 .footer {
-	padding: 2% 0;
+	padding: 25px 0;
 }
 
 .social-links a {
@@ -175,8 +196,9 @@
 }
 
 .copyright {
-	margin-top: 1%;
+	margin-top: 10px;
 }
+
 
 /*
 * back-top

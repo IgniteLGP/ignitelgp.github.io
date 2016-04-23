@@ -2,14 +2,14 @@
 /*	Preloader
 /* ========================================================================= */
 
-jQuery(window).load(function(){
+jQuery(window).load(function() {
 
 	$("#preloader").fadeOut("slow");
 
 });
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 	/* ========================================================================= */
 	/*	Menu item highlighting
@@ -25,6 +25,18 @@ $(document).ready(function(){
 	});
 	
 	/* ========================================================================= */
+	/*	Closes menu after click on mobile devices
+	/* ========================================================================= */
+
+	$(function() {
+		$('.nav a').on('click touchstart', function() {
+			if($('.navbar-toggle').css('display') !='none') {
+				$(".navbar-toggle").trigger( "click" );
+			}
+		});
+	});
+
+	/* ========================================================================= */
 	/*	Fix Slider Height
 	/* ========================================================================= */	
 
@@ -32,7 +44,7 @@ $(document).ready(function(){
 	
 	$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
 
-	$(window).resize(function(){'use strict',
+	$(window).resize(function() {'use strict',
 		$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
 	});
 	

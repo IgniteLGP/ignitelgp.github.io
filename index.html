@@ -84,7 +84,7 @@ layout: default
 				<h2>Our Projects</h2>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://www.up.pt/">
 						<img src="img/projects/up.png" class="img-responsive">
@@ -92,7 +92,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://www.itsector.pt/">
 						<img src="img/projects/drag-shop.png" class="img-responsive">
@@ -100,7 +100,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://increasetime.pt/">
 						<img src="img/projects/keepiteasy.png" class="img-responsive">
@@ -108,7 +108,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://wetek.com/">
 						<img src="img/projects/wemote.png" class="img-responsive">
@@ -134,40 +134,39 @@ layout: default
 			<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
 				<ul class="text-center">
 					<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
+				</ul>
+
+				<ul class="text-center">
 					<li><a href="javascript:;" data-filter=".design" class="filter">Design</a></li>
 					<li><a href="javascript:;" data-filter=".informatics" class="filter">Informatics</a></li>
 					<li><a href="javascript:;" data-filter=".multimedia" class="filter">Multimedia</a></li>
 				</ul>
 			</div>
 
-		</div>
-	</div>
+			<div class="col-xs-12">
+				<div class="project-wrapper">
 
-	<div class="project-wrapper">
+					{% for post in site.posts reversed %}
 
-		<div class="container">
-			<div class="row">
+					<figure class="mix work-item {{ post.filters }}">
 
-				{% for post in site.posts reversed %}
+						<img src="img/team/{{ post.name | slugify }}.jpg" alt="">
 
-				<figure class="mix work-item {{ post.filters }}">
+						<figcaption class="myOverlay">
+							<img src="img/team/{{ post.name | slugify }}-2.jpg" alt="">
 
-					<img src="img/team/{{ post.name | slugify }}.jpg" alt="">
+							<h4>{{ post.name }}</h4>
 
-					<figcaption class="myOverlay">
-						<img src="img/team/{{ post.name | slugify }}-2.jpg" alt="">
+							<p>{{ post.role }}</p>
+						</figcaption>
+					</figure>
 
-						<h4>{{ post.name }}</h4>
+					{% endfor %}
 
-						<p>{{ post.role }}</p>
-					</figcaption>
-				</figure>
-
-				{% endfor %}
-
+				</div>
 			</div>
-		</div>
 
+		</div>
 	</div>
 
 </section>
@@ -183,7 +182,7 @@ layout: default
 				<h2>Our Partners</h2>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://www.up.pt/">
 						<img src="img/partners/up.png" class="img-responsive">
@@ -191,7 +190,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://www.itsector.pt/">
 						<img src="img/partners/it-sector.png" class="img-responsive">
@@ -199,7 +198,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://increasetime.pt/">
 						<img src="img/partners/increase-time.png" class="img-responsive">
@@ -207,7 +206,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated">
+			<div class="col-md-3 col-xs-6 text-center wow fadeInUp animated">
 				<div class="ignite-tile">
 					<a href="http://wetek.com/">
 						<img src="img/partners/wetek.png" class="img-responsive">
@@ -224,7 +223,7 @@ layout: default
 
 <section id="contacts" class="contact">
 	<div class="container">
-		<div class="row mb50">
+		<div class="row">
 
 			<div class="sec-title text-center wow fadeInDown animated" data-wow-duration="500ms">
 				<h2>Contacts</h2>
@@ -232,7 +231,7 @@ layout: default
 
 			<!-- contact address -->
 			<div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
-				<div class="contact-address">
+				<div class="contact-address text-center">
 					<h3>Faculdade de Engenharia da Universidade do Porto</h3>
 
 					<p>Rua Dr. Roberto Frias, s/n,</p>
