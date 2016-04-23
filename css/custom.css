@@ -45,8 +45,15 @@
 }
 
 #banner-content h3 {
-	font-size: 25px;
+	font-size: 27px;
 	padding-left: 10%;
+}
+
+@media (max-width: 768px) {
+	#banner-content h3 {
+		font-size: 4.5vw;
+		padding-left: 10%;
+	}
 }
 
 
@@ -74,6 +81,10 @@
 /*
 * Company members
 */
+
+.work-item {
+	width: 20%;
+}
 
 .work-item img {
 	margin-left: auto;
@@ -113,7 +124,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
-	margin-top: -20%;
+	margin-top: -25%;
 }
 
 .work-item .myOverlay p {
@@ -125,6 +136,7 @@
 /*
 * Team
 */
+
 #team ul {
 	margin-bottom: 1%;
 }
@@ -148,6 +160,22 @@
 	padding-right: 2%;
 
 	margin-bottom: 10%;
+}
+
+/*
+* Footer
+*/
+
+.footer {
+	padding: 2% 0;
+}
+
+.social-links a {
+	font-size: 1.5em;
+}
+
+.copyright {
+	margin-top: 1%;
 }
 
 /*

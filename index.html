@@ -54,7 +54,7 @@ layout: default
 				<h2>About Us</h2>
 			</div>
 
-			<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+			<div class="sec-sub-title text-center">
 				<p>
 					Ignite: desenvolvimento criativo de soluções tecnológicas inovadoras com impacto social.
 				</p>
@@ -145,23 +145,28 @@ layout: default
 
 	<div class="project-wrapper">
 
-		{% for post in site.posts reversed %}
+		<div class="container">
+			<div class="row">
 
-		<figure class="mix work-item {{ post.filters }}">
+				{% for post in site.posts reversed %}
 
-			<img src="img/team/{{ post.name | slugify }}.jpg" alt="">
+				<figure class="mix work-item {{ post.filters }}">
 
-			<figcaption class="myOverlay">
-				<img src="img/team/{{ post.name | slugify }}-2.jpg" alt="">
+					<img src="img/team/{{ post.name | slugify }}.jpg" alt="">
 
-				<h4>{{ post.name }}</h4>
+					<figcaption class="myOverlay">
+						<img src="img/team/{{ post.name | slugify }}-2.jpg" alt="">
 
-				<p>{{ post.role }}</p>
-			</figcaption>
+						<h4>{{ post.name }}</h4>
 
-		</figure>
+						<p>{{ post.role }}</p>
+					</figcaption>
+				</figure>
 
-		{% endfor %}
+				{% endfor %}
+
+			</div>
+		</div>
 
 	</div>
 
