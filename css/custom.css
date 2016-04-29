@@ -94,6 +94,7 @@ body > section {
 
 @media (min-width: 768px) {
 	.work-item {
+		padding: 10px;
 		width: 20%;
 	}
 }
@@ -101,12 +102,6 @@ body > section {
 .work-item img {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.myOverlay > img {
-	display: block;
-	height: auto;
-	max-width: 100%;
 }
 
 .myOverlay {
@@ -117,7 +112,9 @@ body > section {
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	
+
+	padding: 10px;
+
 	opacity: 0;
 	filter: alpha(opacity=0);
 	
@@ -125,6 +122,12 @@ body > section {
 	-moz-transition: all 450ms ease-out 0s;
 	-o-transition: all 450ms ease-out 0s;
 	transition: all 450ms ease-out 0s;
+}
+
+.myOverlay > img {
+	display: block;
+	height: auto;
+	max-width: 100%;
 }
 
 .work-item:hover .myOverlay {
