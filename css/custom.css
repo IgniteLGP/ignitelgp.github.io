@@ -54,13 +54,13 @@ body > section {
 }
 
 #banner-content h3 {
-	font-size: 27px;
+	font-size: 25px;
 	padding-left: 10%;
 }
 
 @media (max-width: 768px) {
 	#banner-content h3 {
-		font-size: 4.5vw;
+		font-size: 4vw;
 		padding-left: 10%;
 	}
 }
