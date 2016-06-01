@@ -53,15 +53,17 @@ body > section {
 	margin: auto;
 }
 
+#banner-content img {
+	margin-left: -4.6%;
+}
+
 #banner-content h3 {
 	font-size: 25px;
-	padding-left: 10%;
 }
 
 @media (max-width: 768px) {
 	#banner-content h3 {
 		font-size: 4vw;
-		padding-left: 10%;
 	}
 }
 
