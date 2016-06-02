@@ -1,17 +1,17 @@
 {
-	"name": "Pangolink!",
-	"short_name": "Pangolink!",
+	"name": "Ignite",
+	"short_name": "Ignite",
 	"start_url": "/",
-	"description": "The ephemeral share service",
+	"description": "Lighting up your imagination",
 	"icons": [
 		{
-			"src": "/icons/192x192.png",
-			"sizes": "192x192",
+			"src": "/img/icon.png",
+			"sizes": "200x200",
 			"type": "image/png"
 		}
 	],
 	"orientation": "portrait",
 	"display": "standalone",
-	"theme_color": "#FCE100",
-	"background_color": "#FCE100"
+	"theme_color": "#e86225",
+	"background_color": "#e86225"
 }
