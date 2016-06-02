@@ -109,3 +109,13 @@
 		});
 	});
 </script>
+
+<script type="text/javascript">
+	// Intercept the add to home screen prompt
+	window.addEventListener('beforeinstallprompt', evt => {
+		// And prevent it from showing if we are in standalone mode
+		if (window.matchMedia('(display-mode: standalone)').matches) {
+			evt.preventDefault();
+		}
+	});
+</script>
